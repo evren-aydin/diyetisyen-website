@@ -1,0 +1,240 @@
+@use "../variables" as *;
+
+.pageHeader {
+  background-color: $primary;
+  color: $white;
+  padding-top: $spacing-4xl;
+  .headerContent {
+    text-align: center;
+    max-width: 800px;
+    padding-top: $spacing-xl;
+    margin: 0 auto;
+
+    h1 {
+      color: $white;
+      margin-bottom: $spacing-sm;
+    }
+
+    p {
+      color: rgba($white, 0.9);
+      font-size: $font-lg;
+    }
+  }
+}
+
+.aboutMe {
+  background-color: $white;
+
+  .aboutContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-2xl;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .aboutImage {
+    position: relative;
+    border-radius: $radius-md;
+    overflow: hidden;
+    box-shadow: $shadow-lg;
+
+    .image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .aboutText {
+    h2 {
+      margin-bottom: $spacing-md;
+      color: $dark;
+    }
+
+    p {
+      margin-bottom: $spacing-md;
+      color: $dark-gray;
+    }
+  }
+}
+
+.education {
+  background-color: $light;
+
+  .sectionTitle {
+    text-align: center;
+    margin-bottom: $spacing-xl;
+  }
+
+  .timelineContainer {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .timeline {
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 100%;
+      background-color: $primary;
+
+      @media (max-width: 768px) {
+        left: 20px;
+      }
+    }
+  }
+
+  .timelineItem {
+    position: relative;
+    margin-bottom: $spacing-xl;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: $primary;
+
+      @media (max-width: 768px) {
+        left: 20px;
+      }
+    }
+
+    .timelineContent {
+      width: 45%;
+      padding: $spacing-lg;
+      background-color: $white;
+      border-radius: $radius-md;
+      box-shadow: $shadow-md;
+      margin-left: auto;
+
+      @media (max-width: 768px) {
+        width: calc(100% - 60px);
+        margin-left: 60px;
+      }
+
+      h3 {
+        margin-bottom: $spacing-xs;
+        color: $dark;
+      }
+
+      .degree {
+        color: $dark-gray;
+        margin-bottom: $spacing-xs;
+      }
+
+      .year {
+        color: $primary;
+        font-weight: 500;
+      }
+    }
+
+    &:nth-child(even) {
+      .timelineContent {
+        margin-left: 0;
+        margin-right: auto;
+
+        @media (max-width: 768px) {
+          margin-left: 60px;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.approach {
+  background-color: $white;
+
+  .approachContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-2xl;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .approachText {
+    h2 {
+      margin-bottom: $spacing-md;
+      color: $dark;
+    }
+
+    p {
+      margin-bottom: $spacing-md;
+      color: $dark-gray;
+    }
+  }
+
+  .approachImage {
+    position: relative;
+    border-radius: $radius-md;
+    overflow: hidden;
+    box-shadow: $shadow-lg;
+
+    .image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      order: -1;
+    }
+  }
+}
+
+.cta {
+  background: linear-gradient(to right, $primary, $secondary);
+  color: $white;
+
+  .ctaContent {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+    h2 {
+      color: $white;
+      margin-bottom: $spacing-md;
+    }
+
+    p {
+      color: rgba($white, 0.9);
+      margin-bottom: $spacing-lg;
+      font-size: $font-lg;
+    }
+
+    .button {
+      background-color: $white;
+      color: $primary;
+
+      &:hover {
+        background-color: $dark;
+        color: $white;
+      }
+    }
+  }
+}

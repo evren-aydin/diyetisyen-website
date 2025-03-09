@@ -1,0 +1,194 @@
+@import "../variables";
+
+// Ana sayfa hakkında bölümü
+.about {
+  background-color: $white;
+
+  .aboutContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-2xl;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .aboutImage {
+    position: relative;
+    border-radius: $radius-md;
+    overflow: hidden;
+    box-shadow: $shadow-lg;
+
+    .image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .aboutText {
+    h2 {
+      margin-bottom: $spacing-md;
+      color: $dark;
+    }
+
+    p {
+      margin-bottom: $spacing-md;
+      color: $dark-gray;
+    }
+  }
+}
+
+// Hizmetler bölümü
+.services {
+  background-color: $light;
+
+  .serviceGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $spacing-xl;
+    margin: $spacing-xl 0;
+
+    @media (max-width: 992px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+// Müşteri yorumları bölümü
+.testimonials {
+  background-color: $white;
+
+  .testimonialSlider {
+    margin: $spacing-xl 0;
+  }
+
+  .testimonial {
+    background-color: $white;
+    border-radius: $radius-md;
+    padding: $spacing-xl;
+    box-shadow: $shadow-md;
+    margin: 0 $spacing-sm;
+  }
+
+  .testimonialContent {
+    p {
+      font-style: italic;
+      color: $dark-gray;
+      margin-bottom: $spacing-md;
+      position: relative;
+
+      &:before {
+        content: '"';
+        font-size: 4rem;
+        color: $light;
+        position: absolute;
+        top: -20px;
+        left: -15px;
+        z-index: -1;
+      }
+    }
+  }
+
+  .testimonialAuthor {
+    display: flex;
+    align-items: center;
+
+    img {
+      border-radius: 50%;
+      margin-right: $spacing-md;
+    }
+
+    h4 {
+      margin-bottom: 0;
+      font-size: $font-md;
+    }
+
+    p {
+      margin-bottom: 0;
+      font-size: $font-sm;
+      color: $dark-gray;
+    }
+  }
+}
+
+// Blog bölümü
+.blog {
+  background-color: $light;
+
+  .blogGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $spacing-xl;
+    margin: $spacing-xl 0;
+
+    @media (max-width: 992px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+// CTA (Call to Action) bölümü
+.cta {
+  background: linear-gradient(to right, $primary, $secondary);
+  color: $white;
+
+  .ctaContent {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+    h2 {
+      color: $white;
+      margin-bottom: $spacing-md;
+    }
+
+    p {
+      color: rgba($white, 0.9);
+      margin-bottom: $spacing-lg;
+      font-size: $font-lg;
+    }
+
+    .button {
+      background-color: $white;
+      color: $primary;
+
+      &:hover {
+        background-color: $dark;
+        color: $white;
+      }
+    }
+  }
+}
+
+// Tüm bölümler için ortak başlık stili
+.sectionHeader {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto $spacing-xl;
+
+  h2 {
+    margin-bottom: $spacing-sm;
+  }
+
+  p {
+    color: $dark-gray;
+  }
+}
+
+// Tüm bölümler için ortak alt kısım stili
+.sectionFooter {
+  text-align: center;
+  margin-top: $spacing-xl;
+}

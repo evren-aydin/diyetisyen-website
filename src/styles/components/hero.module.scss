@@ -1,0 +1,85 @@
+@import "../variables";
+
+.gradientHero {
+  position: relative;
+  height: 75vh;
+  min-height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  overflow: hidden;
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  color: #333; // Koyu metin rengi (beyaz arka plana karşı)
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.heroContent {
+  max-width: 800px;
+  z-index: 2;
+
+  h1 {
+    font-size: $font-5xl;
+    margin-bottom: $spacing-md;
+    margin-top: $spacing-2xl;
+    line-height: 1.2;
+    color: #4b0082; // Indigo - lila tonlarına uyumlu koyu renk
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+  }
+
+  p {
+    font-size: $font-xl;
+    opacity: 0.9;
+    margin-bottom: $spacing-lg;
+    color: #483d8b; // DarkSlateBlue - metin için orta ton lila
+  }
+}
+
+.heroButton {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: $font-md;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: #8a2be2; // BlueViolet - koyu lila buton
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(138, 43, 226, 0.3);
+
+  &:hover {
+    background-color: #9370db; // MediumPurple - hover için daha açık lila
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.5);
+  }
+}
+
+@media (max-width: 768px) {
+  .gradientHero {
+    height: 60vh;
+  }
+
+  .heroContent {
+    h1 {
+      font-size: $font-3xl;
+    }
+
+    p {
+      font-size: $font-md;
+    }
+  }
+}

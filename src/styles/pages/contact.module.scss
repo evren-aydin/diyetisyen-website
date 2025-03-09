@@ -1,0 +1,198 @@
+@import "../variables";
+
+.pageHeader {
+  background-color: $primary;
+  color: $white;
+  padding-top: $spacing-4xl;
+  .headerContent {
+    text-align: center;
+    max-width: 800px;
+    padding-top: $spacing-xl;
+    margin: 0 auto;
+
+    h1 {
+      color: $white;
+      margin-bottom: $spacing-sm;
+    }
+
+    p {
+      color: rgba($white, 0.9);
+      font-size: $font-lg;
+    }
+  }
+}
+
+.contactContent {
+  background-color: $white;
+
+  .contactGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-2xl;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .contactInfo {
+    h2 {
+      margin-bottom: $spacing-md;
+      color: $dark;
+    }
+
+    > p {
+      color: $dark-gray;
+      margin-bottom: $spacing-lg;
+    }
+  }
+
+  .infoItem {
+    display: flex;
+    margin-bottom: $spacing-lg;
+
+    .infoIcon {
+      flex-shrink: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: rgba($primary, 0.1);
+      color: $primary;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: $spacing-md;
+    }
+
+    .infoText {
+      h3 {
+        margin-bottom: $spacing-xs;
+        color: $dark;
+        font-size: $font-md;
+      }
+
+      p {
+        color: $dark-gray;
+        margin-bottom: 0;
+
+        a {
+          color: $dark-gray;
+          transition: $transition-fast;
+
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+
+  .socialLinks {
+    margin-top: $spacing-xl;
+
+    h3 {
+      margin-bottom: $spacing-md;
+      color: $dark;
+      font-size: $font-md;
+    }
+
+    .socialIcons {
+      display: flex;
+      gap: $spacing-sm;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba($primary, 0.1);
+        color: $primary;
+        transition: $transition-normal;
+
+        &:hover {
+          background-color: $primary;
+          color: $white;
+          transform: translateY(-3px);
+        }
+      }
+    }
+  }
+
+  .contactForm {
+    h2 {
+      margin-bottom: $spacing-md;
+      color: $dark;
+    }
+
+    > p {
+      color: $dark-gray;
+      margin-bottom: $spacing-lg;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .formGroup {
+      margin-bottom: $spacing-md;
+
+      label {
+        display: block;
+        margin-bottom: $spacing-xs;
+        color: $dark;
+        font-weight: 500;
+      }
+
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: $spacing-sm $spacing-md;
+        border: 1px solid rgba($dark, 0.1);
+        border-radius: $radius-sm;
+        font-size: $font-md;
+
+        &:focus {
+          outline: none;
+          border-color: $primary;
+        }
+      }
+
+      textarea {
+        resize: vertical;
+      }
+    }
+
+    button {
+      align-self: flex-start;
+    }
+  }
+}
+
+.map {
+  background-color: $light;
+
+  h2 {
+    text-align: center;
+    margin-bottom: $spacing-lg;
+    color: $dark;
+  }
+
+  .mapContainer {
+    border-radius: $radius-md;
+    overflow: hidden;
+    box-shadow: $shadow-md;
+  }
+
+  .mapPlaceholder {
+    background-color: rgba($dark, 0.05);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $dark-gray;
+  }
+}

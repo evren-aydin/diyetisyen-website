@@ -1,0 +1,69 @@
+@import "../variables";
+
+.serviceCard {
+  background-color: $white;
+  border-radius: $radius-md;
+  padding: $spacing-xl;
+  box-shadow: $shadow-md;
+  transition: $transition-normal;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: $shadow-lg;
+
+    .iconWrapper {
+      background-color: $primary;
+
+      img {
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+}
+
+.iconWrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $spacing-md;
+  transition: $transition-normal;
+}
+
+.serviceCard h3 {
+  font-size: $font-lg;
+  margin-bottom: $spacing-sm;
+  color: $dark;
+}
+
+.serviceCard p {
+  color: $dark-gray;
+  margin-bottom: $spacing-lg;
+  flex-grow: 1;
+}
+
+.serviceLink {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: $primary;
+
+  svg {
+    margin-left: $spacing-xs;
+    transition: $transition-fast;
+  }
+
+  &:hover {
+    color: $dark;
+
+    svg {
+      transform: translateX(5px);
+    }
+  }
+}
