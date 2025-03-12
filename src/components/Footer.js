@@ -12,7 +12,7 @@ const Footer = () => {
           <div className={styles.footerLogo}>
             <Link href="/">
               <Image
-                src="/images/logo-footer.svg"
+                src="/images/logo-footer-2.svg"
                 alt="Diyetisyen Logo"
                 width={400}
                 height={80}
