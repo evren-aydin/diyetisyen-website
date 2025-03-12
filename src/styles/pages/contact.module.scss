@@ -1,5 +1,4 @@
-@import "../variables";
-
+@use "../variables" as *;
 .pageHeader {
   background-color: $primary;
   color: $white;
