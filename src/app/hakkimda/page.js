@@ -40,9 +40,9 @@ export default function About() {
               <p>
                 Beslenme ve Diyet Uzmanı olarak 3 yıldır sağlıklı beslenme ve
                 yaşam tarzı konusunda danışanlarıma rehberlik ediyorum. İstanbul
-                Üniversitesi Beslenme ve Diyetetik Bölümü'nden mezun olduktan
-                sonra, alanımda kendimi sürekli geliştirmek için çeşitli
-                sertifika programlarına ve eğitimlere katıldım.
+                Üniversitesi Beslenme ve Diyetetik Bölümü{"'"}nden mezun
+                olduktan sonra, alanımda kendimi sürekli geliştirmek için
+                çeşitli sertifika programlarına ve eğitimlere katıldım.
               </p>
               <p>
                 Uzmanlık alanlarım arasında kilo yönetimi, sporcu beslenmesi,
