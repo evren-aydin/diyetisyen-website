@@ -99,7 +99,7 @@
       transition: all 0.2s ease;
 
       &:hover {
-        color: darken(#4caf50, 10%);
+        color: color.adjust(#4caf50, $lightness: -10%);
       }
     }
 
@@ -147,7 +147,7 @@
       transition: all 0.2s ease;
 
       &:hover {
-        color: darken(#4caf50, 10%);
+        color: color.adjust(#4caf50, $lightness: -10%);
       }
     }
   }
