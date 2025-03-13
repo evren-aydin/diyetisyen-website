@@ -19,10 +19,10 @@ const BlogCard = ({ post }) => {
       <div className={styles.content}>
         <span className={styles.date}>{date}</span>
         <h3>
-          <Link href={`/blog/${slug}`}>{title}</Link>
+          <Link href={`/blog/#`}>{title}</Link>
         </h3>
         <p>{excerpt}</p>
-        <Link href={`/blog/${slug}`} className={styles.readMore}>
+        <Link href={`/blog/#`} className={styles.readMore}>
           Devamını Oku
           <svg
             xmlns="http://www.w3.org/2000/svg"
