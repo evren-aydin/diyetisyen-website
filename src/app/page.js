@@ -6,7 +6,7 @@ import BlogCard from "@/components/BlogCard";
 import styles from "@/styles/pages/home.module.scss";
 
 export const metadata = {
-  title: "Ana Sayfa | Diyetisyen Adı - Beslenme ve Diyet Uzmanı",
+  title: "Ana Sayfa | Diyetisyen Bengisu Tekirdaş - Beslenme ve Diyet Uzmanı",
   description:
     "Kişiye özel beslenme programları ve diyet danışmanlığı ile sağlıklı yaşam için profesyonel diyetisyen hizmetleri.",
 };

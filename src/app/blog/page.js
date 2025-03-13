@@ -3,7 +3,7 @@ import BlogCard from "@/components/BlogCard";
 import styles from "@/styles/pages/blog.module.scss";
 
 export const metadata = {
-  title: "Blog | Diyetisyen Bengisu - Beslenme ve Diyet Uzmanı",
+  title: "Blog | Diyetisyen Bengisu Tekirdaş - Beslenme ve Diyet Uzmanı",
   description:
     "Beslenme, sağlık ve yaşam tarzı hakkında bilgilendirici makaleler ve öneriler.",
 };

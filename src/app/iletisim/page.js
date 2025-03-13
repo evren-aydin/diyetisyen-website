@@ -2,7 +2,7 @@
 import styles from "@/styles/pages/contact.module.scss";
 
 export const metadata = {
-  title: "İletişim | Diyetisyen Adı - Beslenme ve Diyet Uzmanı",
+  title: "İletişim | Diyetisyen Bengisu Tekirdaş - Beslenme ve Diyet Uzmanı",
   description:
     "Diyetisyen Adı ile iletişime geçin, randevu alın ve beslenme danışmanlığı hizmetleri hakkında bilgi edinin.",
 };

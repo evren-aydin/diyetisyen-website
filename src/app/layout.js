@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Diyetisyen Adı | Beslenme ve Diyet Uzmanı",
+  title: "Diyetisyen Bengisu Tekirdaş | Beslenme ve Diyet Uzmanı",
   description: "Sağlıklı beslenme ve diyet danışmanlığı hizmetleri",
 };
 

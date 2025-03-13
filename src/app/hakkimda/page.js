@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "@/styles/pages/about.module.scss";
 
 export const metadata = {
-  title: "Hakkımda | Diyetisyen Adı - Beslenme ve Diyet Uzmanı",
+  title: "Hakkımda | Diyetisyen Bengisu Tekirdaş - Beslenme ve Diyet Uzmanı",
   description:
     "Diyetisyen Adı Soyadı'nın eğitim geçmişi, uzmanlık alanları ve profesyonel deneyimleri hakkında bilgi edinin.",
 };

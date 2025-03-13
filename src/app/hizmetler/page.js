@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/pages/services.module.scss";
 
 export const metadata = {
-  title: "Hizmetler | Diyetisyen Adı - Beslenme ve Diyet Uzmanı",
+  title: "Hizmetler | Diyetisyen Bengisu Tekirdaş - Beslenme ve Diyet Uzmanı",
   description:
     "Kişiye özel beslenme programları, kilo kontrolü, hamilelik beslenmesi ve daha fazla profesyonel diyetisyen hizmetleri.",
 };
