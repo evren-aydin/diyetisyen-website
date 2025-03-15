@@ -7,40 +7,38 @@ import styles from "@/styles/pages/service-detail.module.scss";
 const servicesData = [
   {
     id: 1,
-    title: "Kişiye Özel Beslenme Programı",
-    slug: "kisisel-beslenme-programi",
+    title: "Kilo Verme / Kilo Alma Programı",
+    slug: "kilo-verme-alma-programi",
     description:
-      "Yaş, cinsiyet, fiziksel aktivite düzeyi, sağlık durumu ve hedeflerinize göre tamamen size özel olarak hazırlanan beslenme programları.",
+      "Bu program, vücudunuzun ihtiyaçlarına uygun, bilimsel temelli ve uzun vadede sürdürülebilir beslenme alışkanlıkları kazanmanızı sağlar.",
     fullDescription: `
-      <p>Kişiye özel beslenme programı, bireyin yaşı, cinsiyeti, fiziksel aktivite düzeyi, sağlık durumu, genetik özellikleri ve yaşam tarzı gibi faktörler dikkate alınarak hazırlanan, tamamen kişiye özgü bir beslenme planıdır.</p>
+      <h1>Bu Programda Sizi Neler Bekliyor?</h1>
+       <h3>📌Kişiye Özel Beslenme Planı: </h3> <p>Yaşam tarzınıza, metabolizmanıza ve hedeflerinize göre uygulanabilir bir program hazırlıyorum.</p>
       
-      <p>Bu program, sadece kilo kontrolü sağlamakla kalmaz, aynı zamanda genel sağlık durumunuzu iyileştirmeyi, enerji seviyenizi artırmayı ve uzun vadede sağlıklı beslenme alışkanlıkları kazandırmayı hedefler.</p>
+       <h3>📌Kısıtlayıcı Değil, Sürdürülebilir Yaklaşım: </h3> <p>Aç kalmadan, sosyal hayatınızı kısıtlamadan sağlıklı kilo yönetimi sağlamanıza yardımcı oluyorum.</p>
       
-      <h3>Kişiye Özel Beslenme Programı Nasıl Hazırlanır?</h3>
+       <h3>📌Bilimsel ve Gerçekçi Stratejiler: </h3> <p>Hızlı sonuç vaat eden diyetlerden uzak duruyorum! Unutmayın, amacımız uzun vadede sağlıklı bir beslenme düzeni oluşturmak. Kısa sürece sonuç arıyorum diyorsanız, burası orası değil :)</p>
       
-      <p>İlk görüşmemizde detaylı bir anamnez alarak beslenme alışkanlıklarınızı, yaşam tarzınızı, sağlık geçmişinizi ve hedeflerinizi değerlendiriyorum. Vücut analizinizi yaparak mevcut durumunuzu tespit ediyorum.</p>
-      
-      <p>Toplanan tüm bu bilgiler doğrultusunda, günlük besin ihtiyaçlarınızı hesaplayarak, tamamen size özel bir beslenme programı hazırlıyorum. Bu program, sevdiğiniz ve sevmediğiniz besinleri, günlük rutininizi ve yemek düzeninizi dikkate alarak oluşturulur.</p>
-      
-      <h3>Kişiye Özel Beslenme Programının Faydaları</h3>
-      
-      <ul>
-        <li>Metabolizmanızın daha verimli çalışmasını sağlar</li>
-        <li>Enerji seviyenizi artırır</li>
-        <li>Bağışıklık sisteminizi güçlendirir</li>
-        <li>Sindirim sistemi problemlerini azaltır</li>
-        <li>Uyku kalitenizi iyileştirir</li>
-        <li>Cilt sağlığınızı destekler</li>
-        <li>Kronik hastalık risklerini azaltır</li>
-      </ul>
+     <h3>Nasıl Çalışıyorum?</h3> 
+     <p>İlk görüşmemizde beslenme alışkanlıklarınızı, günlük rutininizi ve hedeflerinizi
+değerlendiriyorum ve size en uygun beslenme planını oluşturuyorum. Kilo verme veya alma
+sürecinde <b>sağlığınızı ön planda tutarak</b>, dengeli bir beslenme modeli geliştiriyorum.</p>
+
+<h3>Programın Kazandırdıkları:</h3> 
+     <p>✔️Günlük rutininizde az/fazla kalori almanıza sebep olan detayları düzenlemeyi hedefler.<br>
+     ✔️ Sağlıklı kilo değişimi sağlar.<br>
+      ✔️ Vücudunuzun ihtiyaçlarını ön planda tutar.
+     </p>
+    
+   <p>Sağlıklı kilo yönetimi için bilinçli ve sürdürülebilir bir adım atmaya hazırsanız, benimle iletişime geçebilirsiniz! </p>
     `,
-    image: "/images/services/personal-nutrition.jpg",
+    image: "/images/services/kilo-verme-alma.jpg",
     icon: "/images/icons/diet-plan.svg",
   },
   {
     id: 2,
     title: "Kilo Verme/Alma Programı",
-    slug: "kilo-kontrolu",
+    slug: "ozel-beslenme",
     description:
       "Sağlıklı ve kalıcı kilo kontrolü için bilimsel temelli beslenme planları.",
     fullDescription: `
@@ -69,13 +67,13 @@ const servicesData = [
         <li>Kronik hastalık risklerini azaltır</li>
       </ul>
     `,
-    image: "/images/services/weight-control.jpg",
+    image: "/images/services/özel-durum.jpg",
     icon: "/images/icons/weight-control.svg",
   },
   {
     id: 3,
     title: "Hamilelik Dönemi Beslenme",
-    slug: "hamilelik-beslenmesi",
+    slug: "hastalik-beslenmesi",
     description:
       "Anne ve bebek sağlığı için hamilelik öncesi, süreci ve sonrası için beslenme danışmanlığı.",
     fullDescription: `
@@ -108,13 +106,13 @@ const servicesData = [
         <li>Emzirme döneminde süt üretimini destekler</li>
       </ul>
     `,
-    image: "/images/services/pregnancy-nutrition.jpg",
+    image: "/images/services/hastalıklarda-beslenme.jpg",
     icon: "/images/icons/pregnancy.svg",
   },
   {
     id: 4,
     title: "Çocuk ve Adölesan Beslenmesi",
-    slug: "cocuk-beslenmesi",
+    slug: "surdurulebilir-beslenme",
     description:
       "Çocukluk ve ergenlik döneminde sağlıklı büyüme ve gelişmeyi destekleyen beslenme danışmanlığı. Çocuğunuzun yaşına uygun besin seçimleri, porsiyon kontrolü ve sağlıklı beslenme alışkanlıkları kazandırma konusunda rehberlik.",
     fullDescription: `<p>Çocuk ve adölesan beslenmesi, çocukların ve gençlerin sağlıklı büyüme, gelişim ve genel sağlıklarını desteklemek için özel olarak hazırlanmış bir beslenme planıdır.</p>
@@ -136,60 +134,8 @@ const servicesData = [
       <li>Sağlıklı kilo kontrolünü sağlar</li>
       <li>Sağlıklı beslenme alışkanlıkları kazandırır</li>
     </ul>`,
-    image: "/images/services/child-nutrition.jpg",
+    image: "/images/services/saglikli-beslenme.jpg",
     icon: "/images/icons/child.svg",
-  },
-  {
-    id: 5,
-    title: "Sporcu Beslenmesi",
-    slug: "sporcu-beslenmesi",
-    description:
-      "Spor performansınızı artırmak, kas kütlenizi korumak veya artırmak ve antrenman sonrası toparlanmanızı hızlandırmak için özel beslenme programları. Spor dalınıza, antrenman yoğunluğunuza ve hedeflerinize göre özelleştirilmiş beslenme stratejileri.",
-    fullDescription: `<p>Sporcu beslenmesi, sporcuların performansını en üst düzeye çıkarmak, kas gelişimini desteklemek ve toparlanmayı hızlandırmak için özel olarak tasarlanmış bir beslenme programıdır. Hedef, vücudun ihtiyaç duyduğu enerji ve besin öğelerini doğru şekilde almak ve antrenman performansını artırmaktır.</p>
-    
-    <h3>Sporcu Beslenmesinin Temel İlkeleri</h3>
-    
-    <p>Sporcular için doğru beslenme, egzersiz öncesi, sırası ve sonrasında vücuda uygun besinleri sağlamak anlamına gelir. Protein, karbonhidrat ve yağların doğru oranlarda alınması, enerji seviyelerinin ve kas onarımının desteklenmesi gerekmektedir.</p>
-    
-    <h3>Sporcu Beslenmesinin Faydaları</h3>
-    
-    <ul>
-      <li>Performansı artırır</li>
-      <li>Kas kütlesini korur veya artırır</li>
-      <li>Toparlanmayı hızlandırır</li>
-      <li>Enerji seviyelerini yükseltir</li>
-      <li>Sakatlık risklerini azaltır</li>
-    </ul>`,
-    image: "/images/services/sports-nutrition.jpg",
-    icon: "/images/icons/sports.svg",
-  },
-  {
-    id: 6,
-    title: "Kronik Hastalıklarda Beslenme",
-    slug: "kronik-hastaliklar",
-    description:
-      "Diyabet, hipertansiyon, kalp hastalıkları, tiroid hastalıkları gibi kronik hastalıklarda beslenme tedavisi. Hastalığınızın yönetimini destekleyen, ilaç tedavinizle uyumlu ve yaşam kalitenizi artıran beslenme programları.",
-    fullDescription: ` <p>Kronik hastalıklarda beslenme, hastalıkların yönetilmesine yardımcı olmak ve genel sağlık durumunu iyileştirmek amacıyla özel olarak hazırlanan bir beslenme planıdır. Diyabet, hipertansiyon, kalp hastalıkları, tiroid hastalıkları gibi durumlar için uygun beslenme tedavisi sağlanır.</p>
-    
-    <h3>Diyabet Beslenmesi</h3>
-    
-    <p>Diyabet hastalarına yönelik beslenme programları, kan şekerini dengelemeyi hedefler. Karbonhidratlar, proteinler ve yağların doğru miktarlarda alınması, insülin duyarlılığını artırır ve kan şekeri dalgalanmalarını engeller.</p>
-    
-    <h3>Hipertansiyon Beslenmesi</h3>
-    
-    <p>Hipertansiyon, tuz ve doymuş yağların kısıtlandığı, potasyum, magnezyum ve liften zengin besinlerin tüketildiği bir beslenme planı ile yönetilebilir. Bu beslenme planı, kan basıncını dengelemeye yardımcı olur.</p>
-    
-    <h3>Kronik Hastalıklarda Beslenmenin Faydaları</h3>
-    
-    <ul>
-      <li>Hastalıkların yönetilmesine yardımcı olur</li>
-      <li>Yaşam kalitesini artırır</li>
-      <li>İlaç tedavisiyle uyumlu beslenme sağlar</li>
-      <li>Metabolik dengeyi sağlar</li>
-      <li>Genel sağlık durumunu iyileştirir</li>
-    </ul>`,
-    image: "/images/services/chronic-disease.jpg",
-    icon: "/images/icons/health.svg",
   },
 ];
 

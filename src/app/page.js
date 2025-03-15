@@ -15,27 +15,27 @@ export default function Home() {
   const services = [
     {
       id: 1,
-      title: "Kişiye Özel Beslenme Programı",
+      title: "Kilo Verme / Kilo Alma Programı",
       description:
-        "Yaş, cinsiyet, fiziksel aktivite ve sağlık durumunuza göre özel olarak hazırlanan beslenme programları.",
+        "Bu program, vücudunuzun ihtiyaçlarına uygun, bilimsel temelli ve uzun vadede sürdürülebilir beslenme alışkanlıkları kazanmanızı sağlar.",
       icon: "/images/icons/diet-plan.svg",
-      link: "/hizmetler/kisisel-beslenme-programi",
+      link: "/hizmetler/kilo-verme-alma-programi",
     },
     {
       id: 2,
-      title: "Kilo Verme/Alma Programı",
+      title: "Özel Durumlarda Beslenme",
       description:
-        "Sağlıklı ve kalıcı kilo kontrolü için bilimsel temelli beslenme planları.",
+        "Bu program, vücudunuzun özel dönemlerdeki gereksinimlerini göz önünde bulundurarak, sizin için en uygun beslenme düzenini oluşturmayı hedefler.",
       icon: "/images/icons/weight-control.svg",
-      link: "/hizmetler/kilo-kontrolu",
+      link: "/hizmetler/ozel-beslenme",
     },
     {
       id: 3,
-      title: "Hamilelik Dönemi Beslenme",
+      title: "Hastalıklara Özel Beslenme Programı",
       description:
-        "Anne ve bebek sağlığı için hamilelik öncesi, süreci ve sonrası için beslenme danışmanlığı.",
+        "Bu program, sağlık durumu ve ihtiyaçlarınız doğrultusunda özel olarak hazırlanır.",
       icon: "/images/icons/pregnancy.svg",
-      link: "/hizmetler/hamilelik-beslenmesi",
+      link: "/hizmetler/hastalik-beslenmesi",
     },
   ];
 
@@ -72,9 +72,9 @@ export default function Home() {
   return (
     <>
       <Hero
-        title="Sağlıklı Beslenme ile Yaşam Kalitenizi Artırın"
-        subtitle="Kişiye özel beslenme programları ve profesyonel diyet danışmanlığı ile hedeflerinize ulaşın."
-        buttonText="Randevu Al"
+        title="Sağlıklı ve sürdürülebilir beslenme ile yaşam kalitenizi artırmaya ne dersiniz?"
+        subtitle="Kişiye özel beslenme planları, hedeflerinize ulaşmanızı kolaylaştırabilir, nasıl mı?"
+        buttonText="BİLGİ AL"
         buttonLink="/iletisim"
       />
 
@@ -91,18 +91,24 @@ export default function Home() {
               />
             </div>
             <div className={styles.aboutText}>
-              <h2>Merhaba, Ben Dyt. Adı Soyadı</h2>
+              <h2>Merhaba, ben Diyetisyen Bengisu Tekirdaş!</h2>
               <p>
-                10 yıllık deneyimim ile sağlıklı beslenme alışkanlıkları
-                kazandırarak yaşam kalitenizi artırmak için yanınızdayım.
-                Beslenme ve Diyet Uzmanı olarak, her danışanımın ihtiyaçlarına
-                özel beslenme programları hazırlıyorum.
+                2022 Ege Üniversitesi Beslenme ve Diyetetik mezunuyum.
+                Mezuniyetimin hemen ardından çalışmaya başladım ve bireysel
+                beslenme danışmanlığı veriyorum.
               </p>
               <p>
-                Amacım sadece kilo kontrolü sağlamak değil, aynı zamanda
-                sağlıklı bir yaşam tarzı edinmenize yardımcı olmaktır. Bilimsel
-                ve güncel yaklaşımlarla, sürdürülebilir beslenme alışkanlıkları
-                kazanmanızı sağlıyorum.
+                Beslenmenin kısıtlamalarla değil, bilinçli seçimlerle
+                sürdürülebilir olduğuna inanıyorum. Diyetisyen olarak, sağlıklı
+                yaşamı bir zorunluluk değil, keyifli bir yolculuk haline
+                getirmeyi amaçlıyorum. Bunu yaparken bilimsel temellere dayalı
+                bilgileri sizlerle paylaşmayı çok kıymetli buluyorum.
+              </p>
+              <p>
+                Çevreye duyarlı beslenme alışkanlıkları, besin okuryazarlığı ve
+                diyet mitlerini yıkmak üzerine içerikler üretiyor, bireysel
+                danışmanlık hizmeti sunuyorum. Siz de sağlıklı yaşam
+                yolculuğunda bana katılmak isterseniz, buradayım!
               </p>
               <Link href="/hakkimda" className="button">
                 Daha Fazla Bilgi
@@ -118,7 +124,7 @@ export default function Home() {
             <h2>Hizmetlerim</h2>
             <p>
               Size özel beslenme çözümleri ile hedeflerinize ulaşmanıza yardımcı
-              oluyorum.
+              oluyorum. Hangi alanlarda çalışıyorum?
             </p>
           </div>
           <div className={styles.serviceGrid}>

@@ -12,57 +12,39 @@ export default function Services() {
   const services = [
     {
       id: 1,
-      title: "Kişiye Özel Beslenme Programı",
+      title: "Kilo Verme / Kilo Alma Programı",
       description:
-        "Yaş, cinsiyet, fiziksel aktivite düzeyi, sağlık durumu ve hedeflerinize göre tamamen size özel olarak hazırlanan beslenme programları. Günlük yaşam tarzınız ve yeme alışkanlıklarınız dikkate alınarak oluşturulan bu programlar, sürdürülebilir ve uygulanabilir olması için özenle tasarlanır.",
-      image: "/images/services/personal-nutrition.jpg",
+        "Hedefiniz kilo vermek ya da almak olabilir, ancak önemli olan bunu sağlıklı ve sürdürülebilir bir şekilde yapmak! Bu program, vücudunuzun ihtiyaçlarına uygun, bilimsel temelli ve uzun vadede sürdürülebilir beslenme alışkanlıkları kazanmanızı sağlar.",
+      image: "/images/services/kilo-verme-alma.jpg",
       icon: "/images/icons/diet-plan.svg",
-      link: "/hizmetler/kisisel-beslenme-programi",
+      link: "/hizmetler/kilo-verme-alma-programi",
     },
     {
       id: 2,
-      title: "Kilo Verme/Alma Programı",
+      title: "Özel Durumlarda Beslenme",
       description:
-        "Sağlıklı ve kalıcı kilo kontrolü için bilimsel temelli beslenme planları. Hızlı kilo verme diyetleri yerine, metabolizmanızı destekleyen, kas kaybını önleyen ve uzun vadede kalıcı sonuçlar sağlayan beslenme programları ile ideal kilonuza ulaşmanıza yardımcı oluyorum.",
-      image: "/images/services/weight-control.jpg",
+        "Hamilelik, menopoz, emzirme dönemi gibi dönemlerde ihtiyaçlarımız değişir. Bu program, vücudunuzun özel dönemlerdeki gereksinimlerini göz önünde bulundurarak, sizin için en uygun beslenme düzenini oluşturmayı hedefler.",
+      image: "/images/services/özel-durum.jpg",
       icon: "/images/icons/weight-control.svg",
-      link: "/hizmetler/kilo-kontrolu",
+      link: "/hizmetler/ozel-beslenme",
     },
     {
       id: 3,
-      title: "Hamilelik Dönemi Beslenme",
+      title: "Hastalıklara Özel Beslenme Programı",
       description:
-        "Anne ve bebek sağlığı için hamilelik öncesi, süreci ve sonrası için beslenme danışmanlığı. Hamilelik döneminde artan besin ihtiyaçlarınızı karşılamak, bebeğinizin sağlıklı gelişimini desteklemek ve doğum sonrası toparlanma sürecinizi hızlandırmak için özel beslenme programları.",
-      image: "/images/services/pregnancy-nutrition.jpg",
+        "İnsülin direnci, PCOS, sindirim sistemi hastalıkları ve diğer kronik durumlar gibi sağlık soruları hem beslenme düzeninizden etkilenir hem de beslenme düzeninizin iyileştirilmesini gerektirir! Bu program, sağlık durumu ve ihtiyaçlarınız doğrultusunda özel olarak hazırlanır.",
+      image: "/images/services/hastalıklarda-beslenme.jpg",
       icon: "/images/icons/pregnancy.svg",
-      link: "/hizmetler/hamilelik-beslenmesi",
+      link: "/hizmetler/hastalik-beslenmesi",
     },
     {
       id: 4,
-      title: "Çocuk ve Adölesan Beslenmesi",
+      title: "Sağlıklı ve Sürdürülebilir Beslenme Programı",
       description:
-        "Çocukluk ve ergenlik döneminde sağlıklı büyüme ve gelişmeyi destekleyen beslenme danışmanlığı. Çocuğunuzun yaşına uygun besin seçimleri, porsiyon kontrolü ve sağlıklı beslenme alışkanlıkları kazandırma konusunda rehberlik.",
-      image: "/images/services/child-nutrition.jpg",
+        "Kilomu korumak istiyorum ama beslenme konusunda doğru bildiğim yanlışları keşfetmeye ihtiyacım var diyorsanız, bu program tam size göre!",
+      image: "/images/services/saglikli-beslenme.jpg",
       icon: "/images/icons/child.svg",
-      link: "/hizmetler/cocuk-beslenmesi",
-    },
-    {
-      id: 5,
-      title: "Sporcu Beslenmesi",
-      description:
-        "Spor performansınızı artırmak, kas kütlenizi korumak veya artırmak ve antrenman sonrası toparlanmanızı hızlandırmak için özel beslenme programları. Spor dalınıza, antrenman yoğunluğunuza ve hedeflerinize göre özelleştirilmiş beslenme stratejileri.",
-      image: "/images/services/sports-nutrition.jpg",
-      icon: "/images/icons/sports.svg",
-      link: "/hizmetler/sporcu-beslenmesi",
-    },
-    {
-      id: 6,
-      title: "Kronik Hastalıklarda Beslenme",
-      description:
-        "Diyabet, hipertansiyon, kalp hastalıkları, tiroid hastalıkları gibi kronik hastalıklarda beslenme tedavisi. Hastalığınızın yönetimini destekleyen, ilaç tedavinizle uyumlu ve yaşam kalitenizi artıran beslenme programları.",
-      image: "/images/services/chronic-disease.jpg",
-      icon: "/images/icons/health.svg",
-      link: "/hizmetler/kronik-hastaliklar",
+      link: "/hizmetler/surdurulebilir-beslenme",
     },
   ];
 
