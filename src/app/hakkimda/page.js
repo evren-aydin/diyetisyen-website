@@ -28,7 +28,7 @@ export default function About() {
           <div className={styles.aboutContent}>
             <div className={styles.aboutImage}>
               <Image
-                src="/images/dietitian-profile.jpg"
+                src="/images/diyetisyen.jpg"
                 alt="Diyetisyen Adı Soyadı"
                 width={500}
                 height={600}
@@ -36,28 +36,24 @@ export default function About() {
               />
             </div>
             <div className={styles.aboutText}>
-              <h2>Merhaba, Ben Dyt. Bengisu Tekirdaş</h2>
+              <h2>Merhaba, ben Diyetisyen Bengisu Tekirdaş!</h2>
               <p>
-                Beslenme ve Diyet Uzmanı olarak 3 yıldır sağlıklı beslenme ve
-                yaşam tarzı konusunda danışanlarıma rehberlik ediyorum. İstanbul
-                Üniversitesi Beslenme ve Diyetetik Bölümü{"'"}nden mezun
-                olduktan sonra, alanımda kendimi sürekli geliştirmek için
-                çeşitli sertifika programlarına ve eğitimlere katıldım.
+                2022 Ege Üniversitesi Beslenme ve Diyetetik mezunuyum.
+                Mezuniyetimin hemen ardından çalışmaya başladım ve bireysel
+                beslenme danışmanlığı veriyorum.
               </p>
               <p>
-                Uzmanlık alanlarım arasında kilo yönetimi, sporcu beslenmesi,
-                hamilelik dönemi beslenmesi, çocuk ve adölesan beslenmesi
-                bulunmaktadır. Her danışanımın ihtiyaçlarına özel beslenme
-                programları hazırlayarak, sadece kısa vadeli sonuçlar değil,
-                uzun vadede sürdürülebilir sağlıklı yaşam alışkanlıkları
-                kazandırmayı hedefliyorum.
+                Beslenmenin kısıtlamalarla değil, bilinçli seçimlerle
+                sürdürülebilir olduğuna inanıyorum. Diyetisyen olarak, sağlıklı
+                yaşamı bir zorunluluk değil, keyifli bir yolculuk haline
+                getirmeyi amaçlıyorum. Bunu yaparken bilimsel temellere dayalı
+                bilgileri sizlerle paylaşmayı çok kıymetli buluyorum.
               </p>
               <p>
-                Danışanlarımla kurduğum güçlü iletişim ve empati sayesinde,
-                beslenme programlarına uyum sürecini kolaylaştırıyor ve
-                hedeflerine ulaşmalarında onlara destek oluyorum. Beslenme
-                alanındaki güncel bilimsel gelişmeleri takip ederek, her zaman
-                en doğru ve güncel bilgileri danışanlarımla paylaşıyorum.
+                Çevreye duyarlı beslenme alışkanlıkları, besin okuryazarlığı ve
+                diyet mitlerini yıkmak üzerine içerikler üretiyor, bireysel
+                danışmanlık hizmeti sunuyorum. Siz de sağlıklı yaşam
+                yolculuğunda bana katılmak isterseniz, buradayım!
               </p>
             </div>
           </div>

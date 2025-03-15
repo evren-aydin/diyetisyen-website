@@ -83,7 +83,7 @@ export default function Home() {
           <div className={styles.aboutContent}>
             <div className={styles.aboutImage}>
               <Image
-                src="/images/dietitian.jpg"
+                src="/images/diyetisyen.jpg"
                 alt="Diyetisyen Adı"
                 width={500}
                 height={600}
